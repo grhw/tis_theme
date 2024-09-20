@@ -21,12 +21,8 @@ for declarations, selectors in rules_dict.items():
     compressed_css += f"{selector_text} {{{properties}}}\n"
 
 theme_css = ""
-last_css = ""
 with open("src/fonts.css","r") as f:
     theme_css = f.read() + "\n" + compressed_css
-    
-with open("src/last.css","r") as f:
-    last_css = "\n" + f.read()
 
 with open("theme/tis.theme.css","w+") as f:
-    f.write(theme_css + last_css)
+    f.write(theme_css)

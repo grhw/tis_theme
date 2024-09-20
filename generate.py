@@ -7,10 +7,13 @@ for folder in os.listdir("src"):
         for i in os.listdir("src/"+ folder):
             with open(f"src/{folder}/{i}","r") as f:
                 read = f.read()
-                matches = []
-                for line in read.splitlines():
-                    if line.startswith("@user "):
-                        matches.append(line.replace("@user ",""))
-                
-                for match in matches:
-                    compiled.append(read.replace("[ott_inj]",f'[data-author-id="{match}"]'))
+                if folder == "messages":
+                    matches = []
+                    for line in read.splitlines():
+                        if line.startswith("@user "):
+                            matches.append(line.replace("@user ",""))
+                    
+                    for match in matches:
+                        compiled.append(read.replace("[ott_inj]",f'[data-author-id="{match}"]'))
+                if folder == "last":
+                    compiled.append(read)

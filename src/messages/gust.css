@@ -19,7 +19,7 @@
     width: 50vw;
     text-align: center;
     font-size: 2em;
-    color: red;
+    color: red !important;
 }
 
 [ott_inj] h3 em {
