@@ -1,0 +1,28 @@
+/*
+@user 656132997422252042
+*/
+
+[ott_inj] .headerText_f9f2ca .username_f9f2ca {
+    font-family: "Nerko One";
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: palevioletred;
+}
+[ott_inj] span {
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+[ott_inj] h1 strong {
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+    font-size: 2em;
+    color: red;
+}
+
+[ott_inj] h3 em {
+    display: inline-block;
+    transform: translateY(-25px);
+}
