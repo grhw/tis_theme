@@ -6,3 +6,11 @@
 [data-author-id="656132997422252042"] h3 em {display: inline-block; transform: translatey(-25px);}
 [data-author-id="1188305643698917409"] span {color: rgb(128, 0, 128); font-family: "Roboto", sans-serif;}
 [data-author-id="845919971937615872"] span, [data-author-id="818674650653130762"] span {color: green;}
+
+.vc-settings-card {
+    background-image: url(https://github.com/osage-chan/tis_theme/blob/main/theme/message.png?raw=true#);
+    background-position: bottom;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 250px;
+}
