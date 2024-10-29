@@ -36,8 +36,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-[data-name=":gun:"] {
+.emojiContainer_bae-2cb [data-name=":gun:"] {
     opacity: 0;
 }
 [data-name=":gun:"] {
