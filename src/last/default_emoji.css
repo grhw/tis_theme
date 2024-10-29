@@ -1,0 +1,10 @@
+
+[data-name=":gun:"] {
+    opacity: 0;
+}
+[data-name=":gun:"] {
+    background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/guns/glock.png?raw=true);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

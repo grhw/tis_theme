@@ -26,3 +26,7 @@
     display: inline-block;
     transform: translateY(-25px);
 }
+
+[data-author-id="656132997422252042"] .emojiContainer_bae8cb:has([alt="🔫"]) {
+    background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/guns/p90.png?raw=true);
+}
