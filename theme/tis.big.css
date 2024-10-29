@@ -48,6 +48,7 @@
 
 /*
 @user 656132997422252042
+@user 1234157886188421184
 */
 
 [data-author-id="656132997422252042"] .headerText_f9f2ca .username_f9f2ca {
@@ -76,6 +77,39 @@
 }
 
 [data-author-id="656132997422252042"] .emojiContainer_bae8cb:has([alt="🔫"]) {
+    background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/guns/p90.png?raw=true);
+}
+/*
+@user 656132997422252042
+@user 1234157886188421184
+*/
+
+[data-author-id="1234157886188421184"] .headerText_f9f2ca .username_f9f2ca {
+    font-family: "Nerko One";
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: palevioletred;
+}
+[data-author-id="1234157886188421184"] span {
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+[data-author-id="1234157886188421184"] h1 strong {
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+    font-size: 2em;
+    color: red !important;
+}
+
+[data-author-id="1234157886188421184"] h3 em {
+    display: inline-block;
+    transform: translateY(-25px);
+}
+
+[data-author-id="1234157886188421184"] .emojiContainer_bae8cb:has([alt="🔫"]) {
     background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/guns/p90.png?raw=true);
 }
 /*
