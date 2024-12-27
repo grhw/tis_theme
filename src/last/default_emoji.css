@@ -2,7 +2,7 @@
     opacity: 0;
 }
 .emojiContainer_bae8cb:has([data-name=":gun:"]) {
-    background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/guns/glock.png?raw=true);
+    background-image: url(https://guhw.dev/tis_theme/theme/guns/glock.png?raw=true);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

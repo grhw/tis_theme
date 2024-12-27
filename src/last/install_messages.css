@@ -1,5 +1,5 @@
 .vc-settings-card {
-    background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/message.png?raw=true#);
+    background-image: url(https://guhw.dev/tis_theme/theme/message.png?raw=true#);
     background-position: bottom;
     background-size: 500px;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     transform: translateX(-20%);
     height: 100px;
 
-    background-image: url(https://github.com/grhw/tis_theme/blob/main/theme/noplugin.png?raw=true);
+    background-image: url(https://guhw.dev/tis_theme/theme/noplugin.png?raw=true);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
